@@ -1,4 +1,19 @@
 {
   "date": "2022-08-01T00:00:00",
-  "percent": 20
+  "bnbAmount": 20,
+  "title": "Giver Finance Private Sale",
+  "description": "GiverFi Is a Defi Protocol Technology with Auto Staking\nSystem and Native Token Rewards. You can get APY\n393.914,92 %. estimated if your invested on giverfi buy\n1000 Token in 12 Months You can get 3,938,148 Token.\nVerifed BSCScan:\nhttps://bscscan.com/token/0xbeC668d85e1D677e87BFbc3E5700742B960626Ad\n",
+  "mainStatusBar": "Sale Live",
+  "minBuyUSDT": 100,
+  "maxBuyUSDT": 100000000, 
+  "progressBarSTART": 20, 
+  "progressBarEND": 5000,
+  "presaleStartTime": "2030-01-01T00:00:00",
+  "privateSaleAddress":"0x00000000000000000000",
+  "softCap": 20, 
+  "hardCap": 5000, 
+  "firstRelasePercent": 95,
+  "vestingPercent": 5, 
+  "vestingEveryXday": 1,
+  "contributors": 1
 }
