@@ -15,5 +15,6 @@
   "firstRelasePercent": 95,
   "vestingPercent": 5, 
   "vestingEveryXday": 1,
-  "contributors": 1
+  "contributors": 1,
+  "presaleStatus": "In Progress"
 }
