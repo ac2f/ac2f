@@ -10,7 +10,7 @@
   "minBuyUSDT": 100,
   "maxBuyUSDT": 1000000,
   "presaleStartTime": "2022-10-12T15:00:00",
-  "presaleendTime": "2022-10-22T15:00:00",
+  "presaleEndTime": "2022-10-22T15:00:00",
   "privateSaleAddress":"0x00000000000000000000",
   "softCap": 50,
   "hardCap": 500,
