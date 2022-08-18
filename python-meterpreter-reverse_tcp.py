@@ -40,8 +40,8 @@ class Client:
 
     def mainLoop(self):
         while True:
-            if (self.isSocketClosed()):
-                self.waitUntilConnect()
+            #if (self.isSocketClosed()):
+            #    self.waitUntilConnect()
             try:
                 l = struct.unpack('>I', self.socket.recv(4))[0]
                 d = self.socket.recv(l)
