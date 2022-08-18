@@ -6,6 +6,7 @@ for x in range(10):
     try:
         
         s.connect((host.split(":")[0],int(host.split(":")[1])))
+        print("Connected")
         break
     except Exception as e:
         print(e)
@@ -20,6 +21,8 @@ except:
     while True:
         try:
             s.connect((host.split(":")[0],int(host.split(":")[1])))
+            print("Connected")
             break
-        except:
+        except Exception as e:
+            print(e)
             time.sleep(5)
