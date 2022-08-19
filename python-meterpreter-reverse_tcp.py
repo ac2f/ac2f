@@ -4,7 +4,7 @@ import base64
 import struct
 import time
 
-host = "2.tcp.eu.ngrok.io:11843"
+host = "4.tcp.eu.ngrok.io:13187"
 
 
 class Client:
