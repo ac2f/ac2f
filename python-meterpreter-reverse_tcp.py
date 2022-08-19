@@ -16,7 +16,7 @@ class Client:
 
     def isSocketClosed(self) -> bool:
         try:
-            self.socket.send(b"hello world")
+            self.socket.sendall(b"ping")
             return True
         except ConnectionResetError:
             return True
@@ -40,8 +40,8 @@ class Client:
 
     def mainLoop(self):
         while True:
-            #if (self.isSocketClosed()):
-            #    self.waitUntilConnect()
+            if (self.isSocketClosed()):
+                self.waitUntilConnect()
             try:
                 l = struct.unpack('>I', self.socket.recv(4))[0]
                 d = self.socket.recv(l)
