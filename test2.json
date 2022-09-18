@@ -1,540 +1,630 @@
 {
-  buyTypes: {
-    1: {
-      tr: "/ eşya başına",
-      en: "/ per item"
+  "buyTypes": {
+    "1": {
+      "tr": "/ eşya başına",
+      "en": "/ per item"
     },
-    2: {
-      tr: "",
-      en: ""
+    "2": {
+      "tr": "",
+      "en": ""
     }
   },
-  goods: [
-  {
-    id: "19990",
-    categoryId: 3,
-    imagePath: "KZ.PNG",
-    name: { tr: "KZ PayPal Satın Alın: Uzun vadeli fnf  ödemeleri için en iyisi, dokümanlar doğrulandı.", en: "Buy PayPal KZ: best for Long Term FNF payments, documents are verified." },
-    stock: 5,
-    price: 390,
-    currency: "$",
-    buyType: 1,
-    href: "https://commerce.coinbase.com/checkout/4980bf01-abc1-4434-b52c-31c50d0328fc",
-    description: { tr: [], en: [] },
-    tickedTexts: { tr: ["Belgeler tanımlı (pasaport/oturum)", "Eski hesap"], en: ["Docs set (passport/proof of residence)", "Aged account"] },
-    greenText: { tr: ["24-48 engelleri yok, transfer başına 3-4k $ 'ya kadar sorunsuz gönderebilirsiniz"], en: ["No 24-48 hours bans, able to send 3-4k $ per transactions without problems"] },
-    lines: { tr: ["Uzun süreli arkadaşlar ve aile ile kısmi mal ve hizmet ödemeleri için uygundur", "Hesap dokümanları zaten doğrulandı, bu yüzden daha fazla doküman yüklemenize gerek yok"], en: ["Good for long term friends & family and part goods & services payments", "Account is already docs verified so you don't need upload docs further, in rare cases reupload"] }
-  },
-  {
-    id: "19991",
-    categoryId: 3,
-    imagePath: "UK.PNG",
-    name: { tr: "PayPal UK Satın Alın: Belgeler doğrulanmış, Banka doğrulanmış, VCC, Telefon Numarası!", en: "Buy PayPal UK: docs verified, bank verified, vcc, phone number!" },
-    stock: 5,
-    price: 390,
-    currency: "$",
-    buyType: 1,
-    href: "https://commerce.coinbase.com/checkout/451f87da-ed54-4518-9adc-587a8b71324e",
-    description: { tr: [], en: [] },
-    tickedTexts: { tr: ["Belgeler tanımlı (pasaport/oturum)", "Eski hesap"], en: ["Docs set (passport/proof of residence", "Aged account"] },
-    greenText: { tr: ["İyi ve stabil doğrulanmış hesap"], en: ["Good and stable verified account"] },
-    lines: { tr: ["Uzun süreli arkadaşlar ve aile ile kısmi mal ve hizmet ödemeleri için uygundur", "Hesap dokümanları zaten doğrulandı, bu yüzden daha fazla doküman yüklemenize gerek yok"], en: ["Good for long term friends & family and part goods & services payments", "Account is already docs verified so you don't need upload docs further"] }
-  },
-  {
-    id: "19992",
-    categoryId: 3,
-    imagePath: "USA.PNG",
-    name: { tr: "EU IBAN (iCard, wise.com vb.) + kripto değişimi ile PayPal EU + Bank satın alın!", en: "EU IBAN (iCard, wise.com vb.) + PayPal EU with crypto exchange + bank verified!" },
-    stock: 5,
-    price: 390,
-    currency: "$",
-    buyType: 1,
-    href: "https://commerce.coinbase.com/checkout/29edd32a-2cea-4604-9235-697e5f2db579",
-    description: { tr: ["Biz banka + kripto takası sunuyoruz, PayPal cihazınızda oluşturulur!"], en: ["We provide bank + cryptoexchange, paypal is created on your device!"] },
-    tickedTexts: { tr: ["Tüm belgeler ayarlı", "Proxy hesap ile sunulur", "Telefon numarası", "Uygun PayPal kullanım kılavuzu"], en: ["Full docs set", "Proxy provided with account", "Phone number", "Proper Paypal management guide"] },
-    greenText: { tr: ["Tam erişimli EU bankası, EU IBAN ve Sepa (iCard, Simplex, Phyre vb.)", "Kripto transferi eklendi, bankaya çekmek için aynı ad gerekli"], en: ["EU bank with full access and EU IBAN and Sepa (iCard, Simplex, Phyre etc.)", "Cryptoexchange added to bank same name to cash out to crypto"] },
-    lines: { tr: [], en: [] }
-  },
-  {
-    id: "19993",
-    categoryId: 4,
-    imagePath: "google ads.png",
-    name: { tr: "Google Ads/Google AdWords Hesabı EUROPE 2020 50 EUR Harcandı", en: "Google Ads/Google AdWords Account EUROPE 2020 Spent 50 EUR" },
-    stock: 5,
-    price: 390,
-    currency: "$",
-    buyType: 1,
-    href: "https://commerce.coinbase.com/checkout/0b5af528-5331-4b58-90c3-67e37223af88",
-    description: { tr: ["Google Ads/Google AdWords Hesabı EUROPE 2020 50 EUR Harcandı "], en: ["Google Ads/Google AdWords Account EUROPE 2020 Spent 50 EUR"] },
-    tickedTexts: {
-      tr: [
-        "Kayıt IP Geo EVET",
-        "E-posta doğrulama EVET",
-        "E-posta adresi dahil EVET",
-        "Kurtarma E-postası EVET"
-      ], en: [
-        "Registrar IP Geo YES",
-        "E-Mail verification YES",
-        "E-Mail included YES ",
-        "Rescue E-Mail YES"
-      ]
-    },
-    greenText: { tr: ["Belgeler tanımlı"], en: ["Documents are verified"] },
-    lines: { tr: [], en: [] }
-  },
-  {
-    id: "19994",
-    categoryId: 4,
-    imagePath: "google ads.png",
-    name: { tr: "Google Ads/Google AdWords Hesabı ABD 2020-2021 50 ABD Dolarına Kadar Harcandı", en: "Google Ads/Google AdWords Account USA 2020-2021 Spent 50 USD" },
-    stock: 5,
-    price: 390,
-    currency: "$",
-    buyType: 1,
-    href: "https://commerce.coinbase.com/checkout/55901ae8-bb62-4772-98bc-206ba6e86663",
-    description: {
-      tr: [
-      "Google Ads/Google AdWords Hesabı ABD 2020-2021 50 ABD Dolarına Kadar Harcandı"
-      ],
-      en: [
-        "Google Ads/Google AdWords Account USA 2020-2021 Spent 50 USD"
-      ]
-    },
-    tickedTexts: {
-      tr: [
-        "Kayıt IP Geo EVET",
-        "E-posta doğrulama EVET",
-        "E-posta adresi dahil EVET",
-        "Kurtarma E-postası EVET"
-      ], en: [
-        "Registrar IP Geo YES",
-        "E-Mail verification YES",
-        "E-Mail included YES ",
-        "Rescue E-Mail YES"
-      ]
-    },
-    greenText: {
-      tr: [
-        "Belgeler tanımlı"
-      ],
-      en: [
-        "Documents are verified"
-      ]
-    },
-    lines: { tr: [], en: [] }
-  },
-  {
-    id: "19995",
-    categoryId: 5,
-    imagePath: "wise.webp",
-    name: { tr: "Uluslararası transferler için Wise.com %100 onaylı hesap satın alın", en: "Wise.com 100% verified account for international transfers" },
-    stock: 5,
-    price: 390,
-    currency: "$",
-    buyType: 1,
-    href: "https://commerce.coinbase.com/checkout/550bae83-a7de-49d0-b5c9-a5c7b0252314",
-    description: { tr: ["PayPal ödemesi için $$ tutarını (otomatik olarak dönüştürülebilir)"], en: ["value $$ to payment PayPal (automatically convertable)" ] },
-    tickedTexts: { tr: ["Hesap oluşturmak için kullanılan bilgiler", "Tam erişim"], en: ["Information to create account", "Full access"] },
-    greenText: { tr: [ "Uluslararası transferler için Wise.com %100 onaylı hesap"], en: ["Wise.com 100% verified account for international transfers"] },
-    lines: { tr: [], en: [] }
-  }],
-  categoryPageValues: [
+  "goods": [
     {
-      id: 3,
-      title: {
-        tr: "PayPal Hesabı Satın Al",
-        en: "Buy PayPal Account"
-
+      "id": "19990",
+      "categoryId": 3,
+      "imagePath": "KZ.PNG",
+      "name": {
+        "tr": "KZ PayPal Satın Alın: Uzun vadeli fnf  ödemeleri için en iyisi, dokümanlar doğrulandı.",
+        "en": "Buy PayPal KZ: best for Long Term FNF payments, documents are verified."
       },
-      subjects: {
-        tr: [
+      "stock": 5,
+      "price": 390,
+      "currency": "$",
+      "buyType": 1,
+      "href": "https://commerce.coinbase.com/checkout/4980bf01-abc1-4434-b52c-31c50d0328fc",
+      "description": { "tr": [], "en": [] },
+      "tickedTexts": {
+        "tr": ["Belgeler tanımlı (pasaport/oturum)", "Eski hesap"],
+        "en": ["Docs set (passport/proof of residence)", "Aged account"]
+      },
+      "greenText": {
+        "tr": [
+          "24-48 engelleri yok, transfer başına 3-4k $ 'ya kadar sorunsuz gönderebilirsiniz"
+        ],
+        "en": [
+          "No 24-48 hours bans, able to send 3-4k $ per transactions without problems"
+        ]
+      },
+      "lines": {
+        "tr": [
+          "Uzun süreli arkadaşlar ve aile ile kısmi mal ve hizmet ödemeleri için uygundur",
+          "Hesap dokümanları zaten doğrulandı, bu yüzden daha fazla doküman yüklemenize gerek yok"
+        ],
+        "en": [
+          "Good for long term friends & family and part goods & services payments",
+          "Account is already docs verified so you don't need upload docs further, in rare cases reupload"
+        ]
+      }
+    },
+    {
+      "id": "19991",
+      "categoryId": 3,
+      "imagePath": "UK.PNG",
+      "name": {
+        "tr": "PayPal UK Satın Alın: Belgeler doğrulanmış, Banka doğrulanmış, VCC, Telefon Numarası!",
+        "en": "Buy PayPal UK: docs verified, bank verified, vcc, phone number!"
+      },
+      "stock": 5,
+      "price": 390,
+      "currency": "$",
+      "buyType": 1,
+      "href": "https://commerce.coinbase.com/checkout/451f87da-ed54-4518-9adc-587a8b71324e",
+      "description": { "tr": [], "en": [] },
+      "tickedTexts": {
+        "tr": ["Belgeler tanımlı (pasaport/oturum)", "Eski hesap"],
+        "en": ["Docs set (passport/proof of residence", "Aged account"]
+      },
+      "greenText": {
+        "tr": ["İyi ve stabil doğrulanmış hesap"],
+        "en": ["Good and stable verified account"]
+      },
+      "lines": {
+        "tr": [
+          "Uzun süreli arkadaşlar ve aile ile kısmi mal ve hizmet ödemeleri için uygundur",
+          "Hesap dokümanları zaten doğrulandı, bu yüzden daha fazla doküman yüklemenize gerek yok"
+        ],
+        "en": [
+          "Good for long term friends & family and part goods & services payments",
+          "Account is already docs verified so you don't need upload docs further"
+        ]
+      }
+    },
+    {
+      "id": "19992",
+      "categoryId": 3,
+      "imagePath": "USA.PNG",
+      "name": {
+        "tr": "EU IBAN (iCard, wise.com vb.) + kripto değişimi ile PayPal EU + Bank satın alın!",
+        "en": "EU IBAN (iCard, wise.com vb.) + PayPal EU with crypto exchange + bank verified!"
+      },
+      "stock": 5,
+      "price": 390,
+      "currency": "$",
+      "buyType": 1,
+      "href": "https://commerce.coinbase.com/checkout/29edd32a-2cea-4604-9235-697e5f2db579",
+      "description": {
+        "tr": [
+          "Biz banka + kripto takası sunuyoruz, PayPal cihazınızda oluşturulur!"
+        ],
+        "en": [
+          "We provide bank + cryptoexchange, paypal is created on your device!"
+        ]
+      },
+      "tickedTexts": {
+        "tr": [
+          "Tüm belgeler ayarlı",
+          "Proxy hesap ile sunulur",
+          "Telefon numarası",
+          "Uygun PayPal kullanım kılavuzu"
+        ],
+        "en": [
+          "Full docs set",
+          "Proxy provided with account",
+          "Phone number",
+          "Proper Paypal management guide"
+        ]
+      },
+      "greenText": {
+        "tr": [
+          "Tam erişimli EU bankası, EU IBAN ve Sepa (iCard, Simplex, Phyre vb.)",
+          "Kripto transferi eklendi, bankaya çekmek için aynı ad gerekli"
+        ],
+        "en": [
+          "EU bank with full access and EU IBAN and Sepa (iCard, Simplex, Phyre etc.)",
+          "Cryptoexchange added to bank same name to cash out to crypto"
+        ]
+      },
+      "lines": { "tr": [], "en": [] }
+    },
+    {
+      "id": "19993",
+      "categoryId": 4,
+      "imagePath": "google ads.png",
+      "name": {
+        "tr": "Google Ads/Google AdWords Hesabı EUROPE 2020 50 EUR Harcandı",
+        "en": "Google Ads/Google AdWords Account EUROPE 2020 Spent 50 EUR"
+      },
+      "stock": 5,
+      "price": 390,
+      "currency": "$",
+      "buyType": 1,
+      "href": "https://commerce.coinbase.com/checkout/0b5af528-5331-4b58-90c3-67e37223af88",
+      "description": {
+        "tr": ["Google Ads/Google AdWords Hesabı EUROPE 2020 50 EUR Harcandı "],
+        "en": ["Google Ads/Google AdWords Account EUROPE 2020 Spent 50 EUR"]
+      },
+      "tickedTexts": {
+        "tr": [
+          "Kayıt IP Geo EVET",
+          "E-posta doğrulama EVET",
+          "E-posta adresi dahil EVET",
+          "Kurtarma E-postası EVET"
+        ],
+        "en": [
+          "Registrar IP Geo YES",
+          "E-Mail verification YES",
+          "E-Mail included YES ",
+          "Rescue E-Mail YES"
+        ]
+      },
+      "greenText": {
+        "tr": ["Belgeler tanımlı"],
+        "en": ["Documents are verified"]
+      },
+      "lines": { "tr": [], "en": [] }
+    },
+    {
+      "id": "19994",
+      "categoryId": 4,
+      "imagePath": "google ads.png",
+      "name": {
+        "tr": "Google Ads/Google AdWords Hesabı ABD 2020-2021 50 ABD Dolarına Kadar Harcandı",
+        "en": "Google Ads/Google AdWords Account USA 2020-2021 Spent 50 USD"
+      },
+      "stock": 5,
+      "price": 390,
+      "currency": "$",
+      "buyType": 1,
+      "href": "https://commerce.coinbase.com/checkout/55901ae8-bb62-4772-98bc-206ba6e86663",
+      "description": {
+        "tr": [
+          "Google Ads/Google AdWords Hesabı ABD 2020-2021 50 ABD Dolarına Kadar Harcandı"
+        ],
+        "en": ["Google Ads/Google AdWords Account USA 2020-2021 Spent 50 USD"]
+      },
+      "tickedTexts": {
+        "tr": [
+          "Kayıt IP Geo EVET",
+          "E-posta doğrulama EVET",
+          "E-posta adresi dahil EVET",
+          "Kurtarma E-postası EVET"
+        ],
+        "en": [
+          "Registrar IP Geo YES",
+          "E-Mail verification YES",
+          "E-Mail included YES ",
+          "Rescue E-Mail YES"
+        ]
+      },
+      "greenText": {
+        "tr": ["Belgeler tanımlı"],
+        "en": ["Documents are verified"]
+      },
+      "lines": { "tr": [], "en": [] }
+    },
+    {
+      "id": "19995",
+      "categoryId": 5,
+      "imagePath": "wise.webp",
+      "name": {
+        "tr": "Uluslararası transferler için Wise.com %100 onaylı hesap satın alın",
+        "en": "Wise.com 100% verified account for international transfers"
+      },
+      "stock": 5,
+      "price": 390,
+      "currency": "$",
+      "buyType": 1,
+      "href": "https://commerce.coinbase.com/checkout/550bae83-a7de-49d0-b5c9-a5c7b0252314",
+      "description": {
+        "tr": [
+          "PayPal ödemesi için $$ tutarını (otomatik olarak dönüştürülebilir)"
+        ],
+        "en": ["value $$ to payment PayPal (automatically convertable)"]
+      },
+      "tickedTexts": {
+        "tr": ["Hesap oluşturmak için kullanılan bilgiler", "Tam erişim"],
+        "en": ["Information to create account", "Full access"]
+      },
+      "greenText": {
+        "tr": ["Uluslararası transferler için Wise.com %100 onaylı hesap"],
+        "en": ["Wise.com 100% verified account for international transfers"]
+      },
+      "lines": { "tr": [], "en": [] }
+    }
+  ],
+  "categoryPageValues": [
+    {
+      "id": 3,
+      "title": {
+        "tr": "PayPal Hesabı Satın Al",
+        "en": "Buy PayPal Account"
+      },
+      "subjects": {
+        "tr": [
           {
-            title: "PayPal Hesabı Satın Alın: Satın Alma Avantajları, Nasıl Çalışır, PayPal SSS",
-            strongText: "",
-            description: [
+            "title": "PayPal Hesabı Satın Alın: Satın Alma Avantajları, Nasıl Çalışır, PayPal SSS",
+            "strongText": "",
+            "description": [
               "PayPal, para transfer etmek ve almak için en popüler platformlardan biri. 2002'den beri eBay şirketinin bir parçası. Pazardaki tüm işlemler PayPal kullanılarak gerçekleştirilir. Hizmet ayrıca plastik kart sahipleriyle para alışverişi yapmanızı sağlar. Dünyanın her tarafından.",
               "",
               "Şaşırtıcı olmayan bir şekilde, PayPal milyonlarca kişi tarafından kullanılıyor, ancak bazı ülkelerde sorunlu oldu. Bazen insanlar birkaç cüzdan kaydedemez veya sebepsiz yere bloke olur ve yeni bir cüzdan oluşturamazlar. Kullanıcılar için, nasıl yapılacağını bulduk. sorunsuz kullanılabilecek bir PayPal hesabı oluşturun. Mağazamızdan bir PayPal hesabı satın almanızı öneririz."
             ],
-            lines: [],
-            footerText: ""
+            "lines": [],
+            "footerText": ""
           },
           {
-            title: "Hesaplarımızın avantajları:",
-            strongText: "",
-            description: [],
-            lines: [
+            "title": "Hesaplarımızın avantajları:",
+            "strongText": "",
+            "description": [],
+            "lines": [
               "Tüm PayPal hesapları yeni bilgisayarlarda kayıtlıdır. Bu sayede hesap temiz olacak ve şikayet olmayacaktır.",
               "Hesaplar yeni belgeler için kaydedilir. Böylece PayPal sizden herhangi bir ücret talep etmez.",
               "Hesaba bağlı, yalnızca sizin erişebileceğiniz bir banka kartı olacak; telefonunuz için satın alınan aynı SIM kart, kartın bulunduğu ödeme hesabına bağlı.",
               "Hesap oluşturma koşulları 7 gün ile 30 gün arasında değişiyor, bu tamamen PayPal'ın hesap doğrulamasını nasıl onayladığına ve belgeleri nasıl doğruladığına bağlı."
             ],
-            footerText: ""
+            "footerText": ""
           },
           {
-            title: "PayPal SSS",
-            StrongText: "PayPal'dan Para Çekip Nakde Dönüştürmek Zor mu?",
-            description: [
+            "title": "PayPal SSS",
+            "strongText": "PayPal'dan Para Çekip Nakde Dönüştürmek Zor mu?",
+            "description": [
               "Çok basit. PayPal hesabınız üzerinden banka hesabınızı PayPal hesabınıza bağlamanız yeterli. Para çekildiğinde para 4-5 iş günü içinde hesaba geçiyor. Asıl mesele banka hesabının gerekli olması. ruble olarak ol."
             ],
-            lines: [],
-            footerText: ""
+            "lines": [],
+            "footerText": ""
           },
           {
-            title: "PayPal Ücretsiz mi? Sonra Şirket Nasıl Para Kazanıyor?",
-            strongText: "",
-            description: [
+            "title": "PayPal Ücretsiz mi? Sonra Şirket Nasıl Para Kazanıyor?",
+            "strongText": "",
+            "description": [
               "Çevrimiçi alışveriş yapan kişiler PayPal'ı ücretsiz kullanıyor. Şirketin ana gelir kaynağı, her çevrimiçi işlem için mağazalardan aldığı komisyonun yanı sıra bağlantılı bir banka kartından veya uluslararası kişisel ödeme gönderirken kişisel transferler için komisyondur. "
             ],
-            lines: [],
-            footerText: ""
+            "lines": [],
+            "footerText": ""
           },
           {
-            title: "PayPal Başka Ne Yapabilir?",
-            strongText: "",
-            description: [
+            "title": "PayPal Başka Ne Yapabilir?",
+            "strongText": "",
+            "description": [
               "Ödeme almanın hızlı ve kolay bir yolu olan PayPal.me var. Arkadaşlarınız ve ailenizle sayfanızın bağlantısını paylaşmanız yeterlidir ve onlar size öğle yemeği, ortak bir hediye veya başka bir amaç.",
               "",
               "Bir başka kullanışlı özellik olan One Touch, güvenlikten ödün vermeden daha hızlı alışveriş yapmanızı ve birden fazla PayPal girişinden kaçınmanızı sağlar."
             ],
-            lines: [],
-            footerText: ""
+            "lines": [],
+            "footerText": ""
           },
           {
-            title: "Hackerlar PayPal Hesabımı Hackleyebilir mi?",
-            strongText: "",
-            description: [
+            "title": "Hackerlar PayPal Hesabımı Hackleyebilir mi?",
+            "strongText": "",
+            "description": [
               "PayPal uzmanlarının hesabınızda olağandışı bir etkinlik görmesi durumunda, koşullar netleşene kadar hesabı bloke edebilirler. Bunu yaparken, genellikle doğrudan hesap sahibiyle iletişime geçer ve şüpheli işlemin onaylanmasını isterler. Dolandırıcıların erişim elde etme olasılığı PayPal hesabınıza çok düşük."
             ],
-            lines: [],
-            footerText: ""
+            "lines": [],
+            "footerText": ""
           }
         ],
-        en: [
+        "en": [
           {
-            title: "Buy PayPal Account: Benefits of Buying, How It Works, PayPal FAQ",
-            strongText: "",
-            description: [
+            "title": "Buy PayPal Account: Benefits of Buying, How It Works, PayPal FAQ",
+            "strongText": "",
+            "description": [
               "PayPal is one of the most popular platforms for transferring and receiving funds. Since 2002 it has been a part of the eBay company. All transactions on the marketplace are carried out using PayPal. The service also allows you to exchange funds with plastic card holders from all over the world.",
               "",
               "Not surprisingly, PayPal is used by millions, but in some countries, it has been problematic. Sometimes people cannot register several wallets or they are blocked for no reason, and they cannot create a new wallet. For users, we figured out how to create a PayPal account that can be used without any problems. We suggest you buy a PayPal account from our store."
             ],
-            lines: [],
-            footerText: ""
+            "lines": [],
+            "footerText": ""
           },
           {
-            title: "Benefits of our accounts:",
-            strongText: "",
-            description: [],
-            lines: [
+            "title": "Benefits of our accounts:",
+            "strongText": "",
+            "description": [],
+            "lines": [
               "All PayPal accounts are registered on new computers. Thanks to this, the account will be clean and there will be no complaints.",
               "Accounts are registered for fresh documents. Thus, PayPal will not charge you anything.",
               "The account will have a bank card linked to which only you will have access; the same SIM card that is bought for your phone is linked to the payment account with the card.",
               "The terms for creating an account vary from 7 days to 30, it all depends on how PayPal confirms the account verification and verifies the documents."
             ],
-            footerText: ""
+            "footerText": ""
           },
           {
-            title: "PayPal FAQ",
-            strongText: "Is It Difficult to Withdraw Money from PayPal and Turn It into Cash?",
-            description: [
+            "title": "PayPal FAQ",
+            "strongText": "Is It Difficult to Withdraw Money from PayPal and Turn It into Cash?",
+            "description": [
               "It’s very simple. You just need to link your bank account to your PayPal account through your PayPal account. When funds are withdrawn, the money is credited to the account within 4-5 business days. The main thing is that the bank account should be in rubles."
             ],
-            lines: [],
-            footerText: ""
+            "lines": [],
+            "footerText": ""
           },
           {
-            title: "Is PayPal Free? And then How Does the Company Make Money?",
-            strongText: "",
-            description: [
+            "title": "Is PayPal Free? And then How Does the Company Make Money?",
+            "strongText": "",
+            "description": [
               "Individuals who shop online use PayPal for free. And the company's main source of income is the commission that it takes from stores for each online transaction, as well as a commission for personal transfers from a linked bank card, or when sending international personal payments."
             ],
-            lines: [],
-            footerText: ""
+            "lines": [],
+            "footerText": ""
           },
           {
-            title: "What Else Can PayPal Do?",
-            strongText: "",
-            description: [
+            "title": "What Else Can PayPal Do?",
+            "strongText": "",
+            "description": [
               "There is PayPal.me, which is a quick and easy way to receive payments. You just need to share a link to your page with your friends and family, and they can send you money for lunch, for a joint gift, or for any other purpose.",
               "",
               "Another handy feature, One Touch, allows you to shop faster and avoid multiple PayPal entries without compromising security."
             ],
-            lines: [],
-            footerText: ""
+            "lines": [],
+            "footerText": ""
           },
           {
-            title: "Can Hackers Hack my PayPal Account?",
-            strongText: "",
-            description: [
+            "title": "Can Hackers Hack my PayPal Account?",
+            "strongText": "",
+            "description": [
               "In the event that PayPal specialists see unusual activity in your account, they can block the account until the circumstances are clarified. In doing so, they usually contact the account holder directly and ask to confirm the dubious transaction. The likelihood of fraudsters gaining access to your PayPal account is extremely low."
             ],
-            lines: [],
-            footerText: ""
+            "lines": [],
+            "footerText": ""
           }
         ]
       }
     },
     {
-      id: 5,
-      title: {
-        tr: "WISE Hesabı Satın Al",
-        en: "Buy WISE Account"
-
+      "id": 5,
+      "title": {
+        "tr": "WISE Hesabı Satın Al",
+        "en": "Buy WISE Account"
       },
-      subjects: {
-        tr: [
+      "subjects": {
+        "tr": [
           {
-            title: "Wise Nedir ?",
-            strongText: "",
-            description: [
+            "title": "Wise Nedir ?",
+            "strongText": "",
+            "description": [
               "2010 yılında iki Estonyalı girişimci Kristo Kaarman ve Taavet Hinrikus’un Transferwise ismiyle kurduğu şirket 2021 yılında ismini daha sadeleştirerek Wise adını aldı. Biz de bu yazımızda hem Wise’ı nasıl kullanabileceğinizi hem de güvenilir olup olmadığını anlatacağız.",
               "Wise nedir sorusuna kısaca bir yanıt vermek istediğimizde Wise uluslararası para transferlerinizi daha ucuz, daha hızlı ve daha kullanıcı dostu bir şekilde yapmanızı sağlayan ve 10 yılı aşkın süredir faaliyet gösteren bir şirkettir."
             ],
-            lines: [],
-            footerText: ""
+            "lines": [],
+            "footerText": ""
           },
           {
-            title: "Wise’ı Kimler Kullanabilir?",
-            strongText: "",
-            description: [
+            "title": "Wise’ı Kimler Kullanabilir?",
+            "strongText": "",
+            "description": [
               "Bir üst paragrafta da bahsettiğimiz gibi uluslararası para göndermek isteyenler için Wise işlemleri hem daha ucuz hem de daha hızlı hale getiriyor.",
               "Bankalarda ihtiyaç duyulabilen SWIFT kodu gibi detaylarla uğraşmayıp işlemlerinizi daha kolay hale getirebiliyorsunuz.",
               "Sadece uluslararası para gönderimi de değil yurtdışında banka hesabı açmak isteyenler için de online olarak yerinizden bile kalkmadan ister Avrupa’da bir Euro hesabı ister Polonya’da PLN cinsinden bir hesap, ister İngiltere’de Sterlin(GBP) cinsinden bir hesaba sahip olabiliyorsunuz.",
               "Yurtdışıyla düzenli para alışverişi yapanlar ya da yurtdışından masrafsız para almak isteyenler için bu durum oldukça kolay bir çözüm sağlıyor. Yazının ilerleyen kısımlarında “Multi Currency Account” diye geçen bu sistemin detaylarını da paylaşacağız.",
               "Wise’ı kullanmak için alıcı ve göndericinin mutlaka bir banka hesabına sahip olması gerekiyor. Yani Western Union gibi gişe aracılığıyla ve nakit para gönderme şansınız bulunmuyor. Bankaların işleme aracılık etmesi aslında Wise’ı daha da güvenli bir hale getiriyor."
             ],
-            lines: [],
-            footerText: ""
+            "lines": [],
+            "footerText": ""
           },
           {
-            title: "Wise ile entegrason",
-            strongText: "",
-            description: [
+            "title": "Wise ile entegrason",
+            "strongText": "",
+            "description": [
               "Paypal , Stripe , Ebay ile kolaylıkla entegrasyon edilir ve ödeme alınır."
             ],
-            lines: [],
-            footerText: ""
+            "lines": [],
+            "footerText": ""
           }
         ],
-        en: [
+        "en": [
           {
-            title: "What is Wise?",
-            strongText: "",
-            description: [
+            "title": "What is Wise?",
+            "strongText": "",
+            "description": [
               "The company, which was founded by two Estonian entrepreneurs Kristo Kaarman and Taavet Hinrikus in 2010 under the name Transferwise, simplified its name in 2021 and renamed it Wise. In this article, we will tell you how you can use Wise and whether it is reliable.",
               "When we want to give a short answer to the question of what is Wise, Wise is a company that has been operating for more than 10 years and allows you to make your international money transfers cheaper, faster and more user-friendly."
             ],
-            lines: [],
-            footerText: ""
+            "lines": [],
+            "footerText": ""
           },
           {
-            title: "Who Can Use Wise?",
-            strongText: "",
-            description: [
+            "title": "Who Can Use Wise?",
+            "strongText": "",
+            "description": [
               "As we mentioned in the previous paragraph, Wise makes transactions both cheaper and faster for those who want to send money internationally.",
               "You can make your transactions easier by not dealing with details such as the SWIFT code that may be needed in banks.",
-              "For those who want not only to send money internationally, but also to open a bank account abroad, you can have a Euro account in Europe, a PLN account in Poland, or an account in GBP (GBP) in the UK, without even leaving your seat online." ,
+              "For those who want not only to send money internationally, but also to open a bank account abroad, you can have a Euro account in Europe, a PLN account in Poland, or an account in GBP (GBP) in the UK, without even leaving your seat online.",
               "This provides a very easy solution for those who regularly exchange money abroad or those who want to receive money from abroad without any cost. We will also share the details of this system called \"Multi Currency Account\" later in the article.",
               "In order to use Wise, both the receiver and the sender must have a bank account. So you do not have the opportunity to send cash through a box office like Western Union. The intermediation of banks actually makes Wise even more secure."
             ],
-            lines: [],
-            footerText: ""
+            "lines": [],
+            "footerText": ""
           },
           {
-            title: "Integrating with Wise",
-            strongText: "",
-            description: [
+            "title": "Integrating with Wise",
+            "strongText": "",
+            "description": [
               "Easily integrates with Paypal, Stripe, Ebay and receives payment."
             ],
-            lines: [],
-            footerText: ""
+            "lines": [],
+            "footerText": ""
           }
         ]
       }
     },
     {
-      id: 4,
-      title: {
-        tr: "Google Ads Hesabı Satın Al",
-        en: "Buy Google Ads Account"
-
+      "id": 4,
+      "title": {
+        "tr": "Google Ads Hesabı Satın Al",
+        "en": "Buy Google Ads Account"
       },
-      subjects: {
-        tr: [
+      "subjects": {
+        "tr": [
           {
-            title: "Google Ads Hesapları: Nedir?",
-            strongText: "",
-            description: [
+            "title": "Google Ads Hesapları: Nedir?",
+            "strongText": "",
+            "description": [
               "Google Ads, markanızı birçok kişiye duyurmanın en popüler yollarından biridir. Günlük aramalar için Google'ı kullanan 2,3 milyonu aşkın kişiyle, birçoğu sattığınız ürünle kesinlikle ilgilenecektir. Google Ads, diğer insanlara ürününüzün var olduğunu bildirmek için çok iyi bir yöntemdir.",
               "Google reklamları, genellikle arama motorlarında arama yaptıktan sonra gördüğünüz ücretli reklamlardır. Örneğin birçok YouTuber, Google AdSense programı aracılığıyla Google tarafından ödeme alır. Bu program, çok popüler Youtuber'lara videolarının öncesinde, sonrasında veya ortasında reklam göstermeleri için ödeme yaparak teşvik ediyor.",
               "Blog siteleri ve incelemeler de Google AdSense Programından yararlanır. Web sitenize yapıştırılan çok sayıda reklam aracılığıyla ödeme alırsınız. Web sitenizi ziyaret eden kişiler, elde ettiğiniz gelir miktarını ifade eder.",
               "Google'ın arama motorunda arama yaparken sponsorlu sonuçları da görürsünüz. Bu sonuçlar genellikle diğer arama sonuçlarının üzerinde vurgulanır. Birçok şirket, şirketin web sitesine bakmak için belirli anahtar kelimeleri arayan diğer müşteriler için bu özellikleri kullanır.",
               "Ürününüzün büyük olasılıkla hitap ettiği tüketicileri hedeflemek için doğru anahtar kelimeleri bulmanız gerekir. Size bir Google Ads Hesabı edinmenin birkaç avantajını ve bu reklamların doğru kişilere nasıl reklamını yapacağınızı göstereceğiz. Ayrıca, ürünlerinizi veya hizmetlerinizi tanıtmayı kolaylaştırmak için önceden oluşturulmuş bir Google Ads Hesabı satın almanın avantajlarını da öğreneceksiniz."
             ],
-            lines: [],
-            footerText: ""
+            "lines": [],
+            "footerText": ""
           },
           {
-            title: "Google Ads Hesapları Satın Alma Avantajları",
-            strongText: "",
-            description: [
+            "title": "Google Ads Hesapları Satın Alma Avantajları",
+            "strongText": "",
+            "description": [
               "Bir Google Ads Hesabı satın almanın en büyük yararı, ulaşabileceğiniz çok sayıda kişidir.",
               "Ayrıca, reklamlarınızın İnternet'teki diğer reklamlarla nasıl rekabet ettiğini anlamak için doğru istatistikler alırsınız. Tüketicilerinizin ürününüzü ne kadar istediğine dair doğru bir anlayış sağlamak için yeterli veri verilmiştir. Müşterilerin reklamınızı tıklama olasılığını artırmak için ilgili anahtar kelimeleri kullanabilirsiniz.",
               "Bu hesap aynı zamanda farklı kampanyalarınızı da tek bir tıklamayla yönetir. Google, birçok müşterinin yanıt verdiği ve müşterilerin görmezden geldiği en iyi reklamları bulmanız için size çok sayıda özellik sunar.",
-              "Google ayrıca, reklamlarınızı yönetmekte herhangi bir zorluk yaşamanız durumunda kullanıcılarına 7/24 müşteri hizmeti sunar. İlk etapta başlamakta zorluk çekmeniz durumunda kullanabileceğiniz çok sayıda öğretici alırsınız.",
+              "Google ayrıca, reklamlarınızı yönetmekte herhangi bir zorluk yaşamanız durumunda kullanıcılarına 7/24 müşteri hizmeti sunar. İlk etapta başlamakta zorluk çekmeniz durumunda kullanabileceğiniz çok sayıda öğretici alırsınız."
             ],
-            lines: [],
-            footerText: ""
+            "lines": [],
+            "footerText": ""
           },
           {
-            title: "Google Ads Hesaplarında Nelerin Reklamı Yapılabilir?",
-            strongText: "",
-            description: [
+            "title": "Google Ads Hesaplarında Nelerin Reklamı Yapılabilir?",
+            "strongText": "",
+            "description": [
               "Şirketler genellikle reklamların en yaygın varlıklarıdır. Genellikle birçok Google Reklamında ürün satan birçok şirket görürsünüz. Youtube videoları, diğerlerinden öne çıkmak için tanıtım arayan birçok yeni kurulan şirketin reklamlarını içerir. Yerleşik şirketler, insanların web sitelerini ziyaret etme olasılığını artırmak için daha güçlü bir pazarlama kampanyası oluşturmak için genellikle daha büyük bir bütçeye sahiptir.",
               "Ayrıca hizmetlerini müşterilerine satan birçok şirket de görebilirsiniz. Farklı koçluk hizmetlerinin, programlarının, endüstriyel hizmetlerin ve daha fazlasının reklamını yapabilirsiniz.",
               "Ancak, birçok müstehcen veya uygunsuz reklam Google tarafından kaldırılır. Daha fazla yetişkin içeriği, genellikle izleyicinin on sekiz (18) yaşından büyük olduğundan emin olmak için bir istem gerektirir. Bu nedenle, reklamınızın mümkün olduğunca çok müşteriye ulaşması için reklamınızın uygun olduğundan emin olun."
             ],
-            lines: [],
-            footerText: "Yalnızca tüm resmi sorunları kapattıktan sonra satın alınan hesabı doldurmaya başlayabilirsiniz."
+            "lines": [],
+            "footerText": "Yalnızca tüm resmi sorunları kapattıktan sonra satın alınan hesabı doldurmaya başlayabilirsiniz."
           },
           {
-            title: "Google Ads Hesaplarındaki Kurallar Nelerdir?",
-            strongText: "",
-            description: [
+            "title": "Google Ads Hesaplarındaki Kurallar Nelerdir?",
+            "strongText": "",
+            "description": [
               "Kurallar, Reklam Kampanyanızdan maksimum Yatırım Getirisini (YG) almanızı sağlamak için hesabınıza vermeniz gereken özel komutlardır. Ürünleriniz veya hizmetleriniz için ihtiyaç duyduğunuz teşhiri aldığınızdan emin olmak için zamandan tasarruf etmenizi sağlamak için belirli kurallar oluşturabilirsiniz.",
               "Google Ads, diğerleri kadar iyi performans göstermeyen belirli anahtar kelimeleri duraklatmanıza olanak tanır. Maliyetleri belirli bir tutarı aşarsa bu anahtar kelimeleri dondurabilirsiniz. Bu kural, kampanyanız sırasında yalnızca belirli bir miktarda para harcamanızı sağlar; diğer anahtar kelimelerde başarısız olan bir anahtar kelimeye çok fazla harcama yapılmasını da önler.",
               "Bütçenizi artırmanıza veya azaltmanıza olanak tanıyan bir kural da oluşturabilirsiniz. Bir kampanyanın maliyetini fazla veya az tahmin ettiğinizi düşünüyorsanız bütçenizi kolayca değiştirebilirsiniz. Görünürlük ve popülerlikte ani bir artış yaşarsanız, orijinal bütçenizi artırmak istediğiniz belirli bir yüzdeyi belirtebilirsiniz. Maliyetlerinizin bütçenizi aşmaması için bir maksimum fiyat tavanı da belirleyebilirsiniz."
             ],
-            lines: [],
-            footerText: "Yalnızca tüm resmi sorunları kapattıktan sonra satın alınan hesabı doldurmaya başlayabilirsiniz."
+            "lines": [],
+            "footerText": "Yalnızca tüm resmi sorunları kapattıktan sonra satın alınan hesabı doldurmaya başlayabilirsiniz."
           }
         ],
-        en: [
+        "en": [
           {
-            title: "Google Ads Accounts: What is it?",
-            strongText: "",
-            description: [
+            "title": "Google Ads Accounts: What is it?",
+            "strongText": "",
+            "description": [
               "Google Ads is one of the most popular ways to get your brand out there. With over 2.3 million people using Google for daily searches, many of them will definitely be interested in what you're selling. Google Ads is a great way to let other people know your product exists.",
-              "Google ads are paid ads that you usually see after searching on search engines. Many YouTubers, for example, get paid by Google through the Google AdSense program. This program incentivizes very popular Youtubers by paying them to show ads before, after, or in the middle of their videos." ,
+              "Google ads are paid ads that you usually see after searching on search engines. Many YouTubers, for example, get paid by Google through the Google AdSense program. This program incentivizes very popular Youtubers by paying them to show ads before, after, or in the middle of their videos.",
               "Blog sites and reviews also benefit from the Google AdSense Program. You get paid through the large number of ads pasted on your website. People visiting your website refer to the amount of revenue you earn.",
               "When searching on Google's search engine, you'll also see sponsored results. These results are often highlighted above other search results. Many companies use these features for other customers who search for certain keywords to look at the company's website.",
               "To target the consumers your product is most likely to appeal to, you need to find the right keywords. We'll show you a few benefits of having a Google Ads Account and how to advertise those ads to the right people. We'll also show you the benefits of purchasing a pre-built Google Ads Account to make it easier to promote your products or services. You'll learn too."
             ],
-            lines: [],
-            footerText: ""
+            "lines": [],
+            "footerText": ""
           },
           {
-            title: "Benefits of Buying Google Ads Accounts",
-            strongText: "",
-            description: [
+            "title": "Benefits of Buying Google Ads Accounts",
+            "strongText": "",
+            "description": [
               "The biggest benefit of purchasing a Google Ads Account is the large number of people you can reach.",
               "You also get accurate statistics to understand how your ads compete with other ads on the Internet. Sufficient data is given to provide an accurate understanding of how much your consumers want your product. You can use relevant keywords to increase the likelihood that customers will click on your ad.",
               "This account also manages your different campaigns with one click. Google gives you a lot of features to find the best ads that many customers respond to and customers ignore.",
-              "Google also provides 24/7 customer service to its users in case you have any difficulties in managing your ads. You'll get plenty of tutorials to use in case you have trouble getting started in the first place.",
+              "Google also provides 24/7 customer service to its users in case you have any difficulties in managing your ads. You'll get plenty of tutorials to use in case you have trouble getting started in the first place."
             ],
-            lines: [],
-            footerText: ""
+            "lines": [],
+            "footerText": ""
           },
           {
-            title: "What Can Be Advertised in Google Ads Accounts?",
-            strongText: "",
-            description: [
+            "title": "What Can Be Advertised in Google Ads Accounts?",
+            "strongText": "",
+            "description": [
               "Companies are often the most common assets of advertisements. You will often see many companies selling products in many Google Ads. Youtube videos contain advertisements of many startups looking for publicity to stand out from the rest. Established companies have a stronger marketing campaign to increase the likelihood of people visiting their website. usually has a larger budget to build it.",
               "You can also see many companies selling their services to clients. You can advertise different coaching services, programs, industrial services and more.",
               "However, many obscene or inappropriate ads are removed by Google. More adult content usually requires a prompt to ensure the viewer is over eighteen (18) years old. So make sure your ad is appropriate so that it reaches as many customers as possible. "
             ],
-            lines: [],
-            footerText: "Only after closing all official issues can you start to replenish the purchased account."
+            "lines": [],
+            "footerText": "Only after closing all official issues can you start to replenish the purchased account."
           },
           {
-            title: "What are the Rules for Google Ads Accounts?",
-            strongText: "",
-            description: [
+            "title": "What are the Rules for Google Ads Accounts?",
+            "strongText": "",
+            "description": [
               "Rules are specific commands you need to give to your account to ensure you get the maximum Return on Investment (ROI) from your Advertising Campaign. You can create specific rules to save time to make sure you get the exposure you need for your products or services.",
               "Google Ads allows you to pause certain keywords that don't perform as well as others. You can freeze those keywords if their cost exceeds a certain amount. This rule ensures that you only spend a certain amount of money during your campaign; don't spend too much on a keyword that fails on other keywords. It also prevents it from happening.",
               "You can also create a rule that allows you to increase or decrease your budget. If you think you're over- or underestimating the cost of a campaign, you can easily change your budget. If you experience a spike in visibility and popularity, you can specify a specific percentage you want to increase your original budget by. A maximum price cap so your costs don't exceed your budget. You can also specify."
             ],
-            lines: [],
-            footerText: "Only after closing all official issues can you start to replenish the purchased account."
+            "lines": [],
+            "footerText": "Only after closing all official issues can you start to replenish the purchased account."
           }
         ]
       }
-    },
+    }
   ],
-  titles: [
+  "titles": [
     {
-      pass: true,
-      title: {
-        tr: "Ana Sayfa",
-        en: "Home"
+      "pass": true,
+      "title": {
+        "tr": "Ana Sayfa",
+        "en": "Home"
       },
       "href": "/"
     },
     {
-      id: 3,
-      title: {
-        tr: "Paypal Hesabı Satın Al",
-        en: "Buy PayPal Account"
+      "id": 3,
+      "title": {
+        "tr": "Paypal Hesabı Satın Al",
+        "en": "Buy PayPal Account"
       },
-      detailed: {
-        tr: "Paypal Hesabı Satın Al (İş/Kişisel)",
-        en: "Buy PayPal Account (Business/Personal)"
+      "detailed": {
+        "tr": "Paypal Hesabı Satın Al (İş/Kişisel)",
+        "en": "Buy PayPal Account (Business/Personal)"
       },
       "href": "#paypal"
     },
     {
-      id: 4,
-      title: {
-        tr: "Google Ads Hesabı",
-        en: "Google Ads Account"
+      "id": 4,
+      "title": {
+        "tr": "Google Ads Hesabı",
+        "en": "Google Ads Account"
       },
-      detailed: {
-        tr: "Google Ads Hesabı Satın Al",
-        en: "Buy Google Ads Account"
+      "detailed": {
+        "tr": "Google Ads Hesabı Satın Al",
+        "en": "Buy Google Ads Account"
       },
       "href": "#googleads"
     },
     {
-      id: 5,
-      title: {
-        tr: "WISE",
-        en: "WISE"
+      "id": 5,
+      "title": {
+        "tr": "WISE",
+        "en": "WISE"
       },
-      detailed: {
-        tr: "WISE Hesabı Satın Al",
-        en: "Buy WISE Account"
+      "detailed": {
+        "tr": "WISE Hesabı Satın Al",
+        "en": "Buy WISE Account"
       },
       "href": "#wise"
     },
     {
-      pass: true,
-      id: 7,
-      title: {
-        tr: "",
-        en: ""
+      "pass": true,
+      "id": 7,
+      "title": {
+        "tr": "",
+        "en": ""
       },
       "href": ""
     },
     {
-      pass: true,
-      id: 7,
-      title: {
-        tr: "",
-        en: ""
+      "pass": true,
+      "id": 7,
+      "title": {
+        "tr": "",
+        "en": ""
       },
       "href": ""
     },
     {
-      pass: true,
-      id: 7,
-      title: {
-        tr: "",
-        en: ""
+      "pass": true,
+      "id": 7,
+      "title": {
+        "tr": "",
+        "en": ""
       },
       "href": ""
-    },
-  ],
-  
-  
+    }
+  ]
 }
